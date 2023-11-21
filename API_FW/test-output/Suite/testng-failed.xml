@@ -3,31 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="org.testing.testscript.TC1_PostRequest">
-        <methods>
-          <include name="testCase1"/>
-        </methods>
-      </class> <!-- org.testing.testscript.TC1_PostRequest -->
-      <class name="org.testing.testscript.TC2_GetAllMethod">
-        <methods>
-          <include name="testCase2"/>
-        </methods>
-      </class> <!-- org.testing.testscript.TC2_GetAllMethod -->
       <class name="org.testing.testscript.TC5_DeleteRequest">
         <methods>
           <include name="testCase5"/>
         </methods>
       </class> <!-- org.testing.testscript.TC5_DeleteRequest -->
-      <class name="org.testing.testscript.TC4_UpdateRequest">
-        <methods>
-          <include name="testCase4"/>
-        </methods>
-      </class> <!-- org.testing.testscript.TC4_UpdateRequest -->
-      <class name="org.testing.testscript.TC3_GetParticular">
-        <methods>
-          <include name="testCase3"/>
-        </methods>
-      </class> <!-- org.testing.testscript.TC3_GetParticular -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
