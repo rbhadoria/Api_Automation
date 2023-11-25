@@ -25,7 +25,7 @@ public class TC4_UpdateRequest
   {
 	  {
 		     ExtentReports reports=ReportHandling.Report();
-		     ExtentTest test = reports.startTest("TC4_GetAllMethod");
+		     ExtentTest test = reports.startTest("TC4_UpdateRequest");
 		    
 			 Properties pr=PropertiesLoad.handlerProperties("../API_FW/URI.properties");
 		     String requestBody= HandlerJsonFile.readjsonfile("../API_FW/src/test/java/org/testing/resourses/PutRequestBody.json");
