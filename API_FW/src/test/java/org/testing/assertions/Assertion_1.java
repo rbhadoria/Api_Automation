@@ -6,7 +6,7 @@ public class Assertion_1
     {
 	          if (expectedStatusCode==actualStatusCode)
 			  {
-		        return true;
+		        return true; 
 			  }		
 			  else
 			  {
@@ -14,5 +14,20 @@ public class Assertion_1
 			  }				  
 	  
      }
+    
+    public static Boolean assertt2(String expectedData ,String actualData) 
+    {
+	          if(expectedData.equals(actualData))
+			  {
+		        return true; 
+			  }		
+			  else
+			  {
+				return false;
+			  }				  
+	  
+     }
+    
+    
   
  }
